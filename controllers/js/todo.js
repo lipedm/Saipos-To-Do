@@ -76,7 +76,7 @@ function addTarefa() { //Adiciona Nova Tarefa
 
 }
 
-function concluiTarefa(id_reg) {
+function concluiTarefa(id_reg) { //CONCLUI Tarefa
     swal.fire({
         type: 'question',
         title: "Concluir Tarefa",
@@ -117,7 +117,7 @@ function concluiTarefa(id_reg) {
 
 }
 
-function devolveTarefa(id_reg) {
+function devolveTarefa(id_reg) { //DEVOLVE Tarefa
     swal.fire({
         type: 'question',
         title: "Devolver Tarefa",

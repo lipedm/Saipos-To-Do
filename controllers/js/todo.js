@@ -156,8 +156,10 @@ function devolveTarefa(id_reg) {
                             $('.swal2-confirm').click(function() {
                                 document.location.reload(true); //Recarrega a página
                             })
+                        } else if (response.status_qtd == 'erro_qtd') {
+                            swal.fire('Excedeu a quantidade de devoluções!', response.message, response.status);
                         } else {
-                            swal.fire('Senha Incorreta!', response.message, response.status);
+                          swal.fire('Senha Incorreta!', response.message, response.status);
                         }
                     })
                     .fail(function() {

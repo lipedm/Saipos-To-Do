@@ -1,6 +1,8 @@
 <?php
+// CONTROLE DE ROTA DA INDEX
 $acao = (isset($_GET['acao'])) ? $_GET['acao'] : '';
 
+// INICIO CARREGA TABELA PENDENTE//
 if ($acao == 'carregaTabelaPendente')
 {
     require_once ('conexao.php');
@@ -56,6 +58,10 @@ if ($acao == 'carregaTabelaPendente')
     </table>
     <?php
 }
+
+// FIM CARREGA TABELA PENDENTE//
+
+// INICIO CARREGA TABELA FINALIZADA//
 else if ($acao == 'carregaTabelaFinalizada')
 {
     require_once ('conexao.php');
@@ -111,6 +117,10 @@ else if ($acao == 'carregaTabelaFinalizada')
         </table>
         <?php
 }
+
+// FIM CARREGA TABELA FINALIZADA//
+
+// INICIO FUNCAO ADD TAREFA//
 else if ($acao == 'add_tarefa')
 {
     $nome_resp = (isset($_GET['nome_resp'])) ? $_GET['nome_resp'] : '';
@@ -128,6 +138,9 @@ else if ($acao == 'add_tarefa')
     }
     echo json_encode($response);
 }
+// FIM FUNCAO ADD TAREFA//
+
+// INICIO FUNCAO CONCLUI TAREFA//
 else if ($acao == 'conclui_tarefa')
 {
     $id_reg = (isset($_GET['id_reg'])) ? $_GET['id_reg'] : '';
@@ -143,6 +156,10 @@ else if ($acao == 'conclui_tarefa')
     }
     echo json_encode($response);
 }
+
+// FIM FUNCAO CONCLUI TAREFA//
+
+// INICIO FUNCAO DEVOLVE TAREFA//
 else if ($acao == 'devolve_tarefa')
 {
     $id_reg = (isset($_GET['id_reg'])) ? $_GET['id_reg'] : '';
@@ -185,4 +202,5 @@ else
     die();
 
 }
+// FIM FUNCAO DEVOLVE TAREFA//
 ?>

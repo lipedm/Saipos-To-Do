@@ -22,7 +22,7 @@ DEFINE('DB', 'saipos');
 # Recursos
 
   
-A lista de Tarefas ### Pendentes e ### Finalizadas esta localizada na nav bar no canto superior esquerdo.
+A lista de Tarefas **Pendentes** e **Finalizadas** está localizada na nav_bar no canto superior esquerdo.
 
 Foi utilizado alguns plugins js e frameworks neste projeto como:
 

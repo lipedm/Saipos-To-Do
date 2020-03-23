@@ -3,8 +3,8 @@
 
 1. Utilizar PHP 7.2.x ou mais recente.
 
-2. Usar o .sql localizado na pasta database como script para criar o banco de dados utilizado na plataforma.
-    O banco utilizado foi MySQL.
+2. Usar o arquivo **db.sql** localizado na pasta **database** como script para criar o banco de dados utilizado na plataforma.
+    O banco utilizado foi **MySQL**.
 
 3. A config de acesso ao banco de dados esta na pasta controllers/conexao.php.
 e esta definido desta forma:

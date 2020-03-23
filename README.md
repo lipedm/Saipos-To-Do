@@ -20,4 +20,5 @@ DEFINE('DB', 'saipos');
 
 Caso haja necessidade alterar estes dados no arquivo.php
   
+A lista de Tarefas #Pendentes e #Finalizadas esta localizada na nav bar no canto superior esquerdo.
 

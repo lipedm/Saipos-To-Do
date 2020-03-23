@@ -1,13 +1,12 @@
 # Instalação / Configuração
 
 
-Utilizar PHP 7.2.x ou mais recente.
+1. Utilizar PHP 7.2.x ou mais recente.
 
-Usar o .sql localizado na pasta database como script para criar o banco de dados utilizado na plataforma.
+2. Usar o .sql localizado na pasta database como script para criar o banco de dados utilizado na plataforma.
+    O banco utilizado foi MySQL.
 
-O banco utilizado foi MySQL.
-
-A config de acesso ao banco de dados esta na pasta controllers/conexao.php.
+3. A config de acesso ao banco de dados esta na pasta controllers/conexao.php.
 e esta definido desta forma:
 
 DEFINE('HOST', '127.0.0.1');
@@ -18,7 +17,7 @@ DEFINE('SENHA', '');
 
 DEFINE('DB', 'saipos');
 
-Caso haja necessidade, altere estes dados no arquivo conexao.php
+4. Caso haja necessidade, altere estes dados no arquivo conexao.php
 
 # Recursos
 
@@ -27,10 +26,10 @@ A lista de Tarefas ### Pendentes e ### Finalizadas esta localizada na nav bar no
 
 Foi utilizado alguns plugins js e frameworks neste projeto como:
 
-SweetAlert2
+* SweetAlert2
 
-Datatables
+* Datatables
 
-jQuery ui
+* jQuery ui
 
-Bootstrap
+* Bootstrap

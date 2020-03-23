@@ -34,20 +34,7 @@ CREATE TABLE `lista_todo` (
 
 /*Data for the table `lista_todo` */
 
-insert  into `lista_todo`(`id_reg`,`nome_responsavel`,`email`,`descricao`,`situacao`,`qtd_conc`,`data_criacao`,`data_baixa`) values (5,'Felipe','felipe@teste.com','teste','C',0,'2020-03-20 17:24:28',NULL),(6,'Amanda','amanda@atest.com','lorem ipsum','C',0,'2020-03-20 17:49:06',NULL),(7,'Amilton','amuilton@asdokaos.com','Lavar a roupa','P',0,'2020-03-20 17:58:01',NULL),(8,'Daniela','dani@dani.com','qwe','C',0,'2020-03-20 17:58:50',NULL),(9,'Geanine','geaninepavan@gmail.com','Chegar em casa\nDar comida pros cachorros\nFazer janta','P',0,'2020-03-20 19:21:58',NULL);
-
-/*Table structure for table `log_lista` */
-
-DROP TABLE IF EXISTS `log_lista`;
-
-CREATE TABLE `log_lista` (
-  `id_reg` int(11) NOT NULL,
-  `id_lista` int(4) DEFAULT NULL,
-  `log` blob DEFAULT NULL,
-  PRIMARY KEY (`id_reg`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
-/*Data for the table `log_lista` */
+insert  into `lista_todo`(`id_reg`,`nome_responsavel`,`email`,`descricao`,`situacao`,`qtd_conc`,`data_criacao`,`data_baixa`) values (5,'Felipe','felipe@teste.com','teste','C',2,'2020-03-20 17:24:28',NULL),(6,'Teste4','teste4@teste.com','lorem ipsum','C',2,'2020-03-20 17:49:06',NULL),(7,'Teste','teste@teste.com','teste2','P',2,'2020-03-20 17:58:01',NULL),(8,'Teste2','teste2@teste.com','teste3','C',1,'2020-03-20 17:58:50',NULL),(9,'Teste3','teste3@teste.com','teste4','P',0,'2020-03-20 19:21:58',NULL);
 
 /*Table structure for table `sys_supervisor` */
 

@@ -25,6 +25,9 @@ A lista de Tarefas #Pendentes e #Finalizadas esta localizada na nav bar no canto
 Foi utilizado alguns plugins js e frameworks neste projeto como:
 
 SweetAlert2
+
 Datatables
+
 jQuery ui
+
 Bootstrap

@@ -149,13 +149,17 @@ else if ($acao == 'devolve_tarefa')
     require_once ('conexao.php');
     $psw = mysqli_real_escape_string($conexao, $_GET['psw']);
 
-    $query_valida = "SELECT * FROM sys_supervisor WHERE psw = MD5('{$psw}')";
-    $result = mysqli_query($conexao, $query_valida);
-    $row = mysqli_num_rows($result);
+    $query_valida_supervisor = "SELECT psw FROM sys_supervisor WHERE psw = MD5('{$psw}')";
+    $result_supervisor = mysqli_query($conexao, $query_valida_supervisor);
+    $valida_supervisor = mysqli_num_rows($result_supervisor);
 
-    if ($row >= 1)
+    $query_valida_qtd = "SELECT qtd_conc FROM lista_todo WHERE id_reg = $id_reg";
+    $result_qtd = mysqli_query($conexao, $query_valida_qtd);
+    $valida_qtd = $result_qtd->fetch_assoc();
+
+    if ($valida_supervisor >= 1 and $valida_qtd['qtd_conc'] < 2)
     {
-        $sql = "UPDATE lista_todo SET situacao = 'P' WHERE id_reg = $id_reg";
+        $sql = "UPDATE lista_todo SET situacao = 'P', qtd_conc = qtd_conc + 1  WHERE id_reg = $id_reg";
         if ($conexao->query($sql))
         {
             $response['status'] = 'success';
@@ -164,13 +168,17 @@ else if ($acao == 'devolve_tarefa')
         {
             $response['status'] = 'error';
         }
-        echo json_encode($response);
     }
-    else
+    else if ($valida_supervisor >= 1 and $valida_qtd >= 2)
     {
-        $response['status'] = 'error';
-        echo json_encode($response);
+      $response['status_qtd'] = 'erro_qtd';
+      $response['status'] = 'error';
+    } else{
+      $response['status_psw'] = 'erro_psw';
+      $response['status'] = 'error';
     }
+
+    echo json_encode($response);
 }
 else
 {

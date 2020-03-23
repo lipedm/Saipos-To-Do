@@ -1,4 +1,4 @@
-# Saipos-To-Do
+# Instalação / Configuração
 
 
 Utilizar PHP 7.2.x ou mais recente.
@@ -21,9 +21,9 @@ DEFINE('DB', 'saipos');
 Caso haja necessidade, altere estes dados no arquivo conexao.php
 
 # Recursos
------------------------------------------------------------------------------------------
+
   
-A lista de Tarefas ###Pendentes e ###Finalizadas esta localizada na nav bar no canto superior esquerdo.
+A lista de Tarefas ### Pendentes e ### Finalizadas esta localizada na nav bar no canto superior esquerdo.
 
 Foi utilizado alguns plugins js e frameworks neste projeto como:
 

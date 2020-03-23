@@ -9,13 +9,13 @@
 3. A config de acesso ao banco de dados esta na pasta controllers/conexao.php.
 e esta definido desta forma:
 
-DEFINE('HOST', '127.0.0.1');
+* DEFINE('HOST', '127.0.0.1');
 
-DEFINE('USUARIO', 'root');
+* DEFINE('USUARIO', 'root');
 
-DEFINE('SENHA', '');
+* DEFINE('SENHA', '');
 
-DEFINE('DB', 'saipos');
+* DEFINE('DB', 'saipos');
 
 4. Caso haja necessidade, altere estes dados no arquivo conexao.php
 

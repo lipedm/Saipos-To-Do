@@ -9,9 +9,13 @@ O banco utilizado foi MySQL.
 
 A config de acesso ao banco de dados esta na pasta controllers/conexao.php.
 e esta definido desta forma:
+
 DEFINE('HOST', '127.0.0.1');
+
 DEFINE('USUARIO', 'root');
+
 DEFINE('SENHA', '');
+
 DEFINE('DB', 'saipos');
 
 Caso haja necessidade alterar estes dados no arquivo.php

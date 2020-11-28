@@ -1,4 +1,4 @@
-# Very Simple ToDo List
+# Very Simple ToDo List made 3 years when i was learning/improving php skills
 
 
 # Instalação / Configuração

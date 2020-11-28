@@ -4,7 +4,7 @@
 # Instalação / Configuração
 
 
-1. Utilizar **PHP 7.2.x** ou mais recente.
+1. Utilizar **PHP 7.1.x** ou mais recente.
 
 2. Usar o arquivo **db.sql** localizado na pasta **database** como script para criar o banco de dados utilizado na plataforma.
     O banco utilizado foi **MySQL**.

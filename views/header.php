@@ -5,8 +5,8 @@
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Saipos Todo</title>
-        <meta name="description" content="Saipos Todo">
+        <title>Todo List</title>
+        <meta name="description" content="Todo">
         <meta name="author" content="Felipe Fernandes">
         <meta name="robots" content="">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggler">
-                <a class="navbar-brand" href="index.php">Saipos To-Do</a>
+                <a class="navbar-brand" href="index.php">To-Do List</a>
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Lista Pendentes <span class="sr-only">(current)</span></a>

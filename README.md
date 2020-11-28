@@ -1,4 +1,4 @@
-# Very Simple Stupid List
+# Very Simple ToDo List
 
 
 # Instalação / Configuração

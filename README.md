@@ -1,3 +1,6 @@
+# Very Simple Stupid List
+
+
 # Instalação / Configuração
 
 
@@ -19,12 +22,9 @@ e esta definido desta forma:
 
 4. Caso haja necessidade, altere estes dados no arquivo **conexao.php**.
 
-# Recursos
-
   
-A lista de Tarefas **Pendentes** e **Finalizadas** está localizada na nav_bar no canto **superior esquerdo**.
-
-Foi utilizado alguns plugins js e frameworks neste projeto como:
+A lista de Tarefas **Pendentes** e **Finalizadas** está localizada na nav_bar no canto **superior esquerdo**.  
+plugins js:  
 
 * SweetAlert2
 

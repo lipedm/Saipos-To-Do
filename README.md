@@ -18,7 +18,7 @@ e esta definido desta forma:
 
 * DEFINE('SENHA', '');
 
-* DEFINE('DB', 'saipos');
+* DEFINE('DB', 'todo');
 
 4. Caso haja necessidade, altere estes dados no arquivo **conexao.php**.
 

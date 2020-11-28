@@ -1,6 +1,6 @@
 /*
 SQLyog Ultimate v12.09 (32 bit)
-MySQL - 10.4.11-MariaDB : Database - saipos
+MySQL - 10.4.11-MariaDB : Database - todo
 *********************************************************************
 */
 
@@ -15,7 +15,7 @@ MySQL - 10.4.11-MariaDB : Database - saipos
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`todo` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
 
-USE `saipos`;
+USE `todo`;
 
 /*Table structure for table `lista_todo` */
 

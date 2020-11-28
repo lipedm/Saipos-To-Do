@@ -2,7 +2,7 @@
 DEFINE('HOST', '127.0.0.1');
 DEFINE('USUARIO', 'root');
 DEFINE('SENHA', '');
-DEFINE('DB', 'saipos');
+DEFINE('DB', 'todo');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 
